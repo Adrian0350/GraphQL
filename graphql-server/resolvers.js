@@ -3,7 +3,7 @@ const connection = mysql.createConnection({
 	host:     'localhost',
 	user:     'root',
 	password: 'root',
-	database: 'incremen_crm',
+	database: 'graphql_db',
 	port:     '/opt/local/var/run/mysql57/mysqld.sock'
 });
 
