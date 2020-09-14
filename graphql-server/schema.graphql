@@ -1,0 +1,18 @@
+type Query {
+	goals(company_id: ID!): [Goal],
+}
+
+type Goal {
+	id: ID!
+	company_id: Int
+	user_id: Int
+	name: String
+	measure: String
+	optionals: String
+	time_period: String
+	start_date: String
+	end_date: String
+	recurring: Int
+	modified: String
+	created: String
+}
